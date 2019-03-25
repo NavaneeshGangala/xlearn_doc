@@ -3,6 +3,9 @@ Installation Guide for Windows
 
 For now, xLearn can support Windows. This page gives instructions on how to build and install the xLearn from source code on Windows. Before starting,  make sure that your Windows has already installed  ``Visual Studio 2017`` and ``CMake``. 
 
+***If you are sure with VS2017, CMake installation and their path configurations then go for One-Button Building below
+
+
 Install Visual Studio 2017
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -64,7 +67,7 @@ Then, you can install the Python package through ``install-python.sh``: ::
 You can also test the Python package by using the following command: ::
 
   cd ../
-  python test_python.py
+  python run_demo_ctr.py
 
 One-Button Building
 =======================
